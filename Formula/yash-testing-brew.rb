@@ -4,8 +4,8 @@
 class YashTestingBrew < Formula
     desc "testing for adding to brew"
     homepage "https://github.com/yp583/homebrew-tap-test"
-    url "https://github.com/yp583/homebrew-tap-test/archive/refs/tags/v0.1.1.tar.gz"
-    sha256 "224d0a1d282fc63132340cd3649b907affeaa208f5f4af939895169546057cb8"
+    url "https://github.com/yp583/homebrew-tap-test/archive/refs/tags/v0.1.2.tar.gz"
+    sha256 "71b4141aca2139349c08676a5a716bd342679fa9c2ea36b389b64d2b1ac2baee"
     license ""
   
     # depends_on "cmake" => :build
