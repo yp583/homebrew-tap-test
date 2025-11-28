@@ -17,11 +17,9 @@ class YashTestingBrew < Formula
     # end
   
     def install
-      # Remove unrecognized options if they cause configure to fail
-      # https://docs.brew.sh/rubydoc/Formula.html#std_configure_args-instance_method
-      system "./configure", "--disable-silent-rules", *std_configure_args
-      # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
-    end
+      # here we are installing the shell script and giving it an executable name of "tiny-sh-example"
+      bin.install "test.sh" => "yash-testing-brew"
+  end
   
     test do
       # `test do` will create, run in and delete a temporary directory.
